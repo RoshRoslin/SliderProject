@@ -230,6 +230,7 @@ Slider
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
    center/cover no-repeat;
 } */
+
 .btn-container {
   display: flex;
   justify-content: center;

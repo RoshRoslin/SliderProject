@@ -237,7 +237,7 @@ Slider
   margin-top: 0.75rem;
 }
 .prevBtn,
-.nextBtn {
+.nextBtn, .randomBtn {
   background: transparent;
   border-color: transparent;
   font-size: 1.75rem;

@@ -1,6 +1,7 @@
 const slides = document.querySelectorAll('.slide');
 const nextBtn = document.querySelector(".nextBtn");
 const prevBtn = document.querySelector(".prevBtn");
+const randomBtn = document.querySelector(".randomBtn");
 
 slides.forEach(function(slide, index){
   slide.style.left = `${index * 100}%`
@@ -14,6 +15,11 @@ nextBtn.addEventListener('click', function(){
 
 prevBtn.addEventListener('click', function(){
   counter--;
+  carousel();
+});
+
+randomBtn.addEventListener('click', function(){
+  counter = Math.floor(Math.random() * 27);
   carousel();
 });
 
